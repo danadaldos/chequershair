@@ -1,0 +1,227 @@
+/* CSS Document */
+
+
+a.nav:link {
+	color: #060;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+}
+a.nav:visited {
+	color:#096;
+	text-decoration:underline;
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif
+}
+a.nav:hover {
+	color:#0F0;
+	text-decoration:underline;
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif
+}
+a.nav_active:link {
+	color: #C30;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif
+}
+
+a.otherLink:link    { color:red; text-decoration:none; }
+a.otherLink:visited { color:red; text-decoration:none; }
+a.otherLink:hover   { color:green; text-decoration:underline;}
+a.otherLink:active  { color:red; text-decoration:none; }
+
+
+body,td,th {
+	background-repeat: no-repeat;
+	background-color: #ADD58C;
+	background-attachment: fixed;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	clear: both;
+
+}
+#page {
+	height: auto;
+	width: 1000px;
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	background-color: #FFF;
+}
+#header1 {
+	height: 300px;
+	width: 950px;
+	background-color: #FFFFFF;
+	background-image: url(zimages/header1.png);
+	background-repeat: no-repeat;
+	float:left;
+	overflow: inherit;
+	position: static;
+	z-index: auto;
+}	
+.social {
+	height: 43px;
+	width: 43px;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	float: right;
+	margin-left: 10px;
+	margin-top: 15px;
+	font: #FFF;
+	margin-right: 0px;
+}	
+#wind {
+	height: 104px;
+	width: 64px;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 15px;
+	margin-right: 10px;
+}	
+#header2 {
+	height: 90px;
+	width: 950px;
+	background-color: #FFFFFF;
+	background-image: url(/zimages/header2.png);
+	background-repeat: no-repeat;
+	float:left;
+	
+}	
+#nav1 {
+	height: 420px;
+	width: 181px;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	float:left;
+	background-image: url(zimages/nav1.png);
+	position: static;
+	
+}	
+.nav2 {
+	height: 30px;
+	width: 161px;
+	background-repeat: inherit;
+	text-align: center;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-bottom: 15px;
+	margin-left: -20px;
+	
+}	
+#content {
+	height:auto;
+	float: left;
+	width: 719px;
+	margim-right: 30px;
+	padding-left: 50px;
+	padding-top: 20px;
+	color: #333;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	overflow: visible;
+}	
+.content {
+	height:auto;
+	float: left;
+	width: 739px;
+	margin-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	color: #000;
+	margin-left: 30px;
+}	
+.heading {
+	color: #000;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+.heading_gray {
+	color: #515151;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	
+}
+.text_lg {
+	color: #E03D26;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+}	
+.text {
+	color: #333;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}	
+.text_sm {
+	color: #333;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}	
+#footer {
+	height: 150px;
+	width: 1000px;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	float:left;
+	border-top: 1px solid #396;
+	margin-left: auto;
+	margin-right: auto;
+}
+#map_panel {
+	float: right;
+	height: auto;
+	width: 500px;
+}
+#hours {
+	float:left;
+	width: 250px;
+}
+#topper {
+	height:470px;
+	width: 750px;
+}
+#heads {
+	float:left;
+	width: 200px;
+}
+.head {
+	float:left;
+	width: 200px;
+	margin-bottom: 0px;
+	height: 310px;
+	
+}
+#bios {
+	float:left;
+	width: 719px;
+}
+.bio {
+	width:auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+		
+.biotext {
+	width: 495px;
+	height: auto;
+	float: left;
+	padding-left: 20px;
+	/* [disabled]padding-top: 50px; */
+}
+.horizontal_divider_full {
+	width: auto;
+	border-top: 1px solid #396
+}
